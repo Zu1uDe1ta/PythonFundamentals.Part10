@@ -8,32 +8,17 @@ class Person:
         self.first_name = first_name
         self.last_name = last_name
 
-
-    def unique_id:
+    def unique_id(self):
         bank_ids = []
         for i in self.id:
             if i not in bank_ids:
                 bank_ids.append(i)
-print (bank_ids)
+        print (bank_ids)
 
-
-
-
-class my_class(object):
-    def __init__(self):
-        self.lis1 = []
-        self.dict1 = {}
-
-    def __nonzero__(self):
-        return bool(self.lis1 or self.dict1)
 
 
 """
-obj = my_class()
-if obj:
-    print "Available"
-else:
-    print "Not available"
+
 
 
 
