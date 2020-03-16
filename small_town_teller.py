@@ -51,11 +51,9 @@ class Bank:
         print(f"Balance= {self.accounts[account_number]}")
 
 
-self.add_account
+
 # Removing an account from the bank, pull from class Account
-self.deposit
-self.withdrawal
-self.balance_inquiry
+
 
 
 
